@@ -146,3 +146,8 @@ sh -i ~/.ssh/id_rsa ubuntu@ipAddress
 ssh -i ~/.ssh/id_rsa ubuntu@3.90.203.23
   
 ``
+## To set Hostname
+```sh
+sudo hostnamectl set-hostname <new-hostname>
+sudo su - kops
+```
