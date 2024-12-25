@@ -41,7 +41,9 @@ sudo ./aws/install
  ```
 ## or 2c) install AWSCLI using the script below
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
 unzip awscliv2.zip
+
 sudo ./aws/install
 
 ## 3) Install kops software on an ubuntu instance by running the commands below:
